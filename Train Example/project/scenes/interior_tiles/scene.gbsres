@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "8813dd3c-1183-47ea-a01c-7156e625cb14",
+  "_index": 4,
+  "type": "TOPDOWN",
+  "name": "interior_tiles",
+  "symbol": "scene_5",
+  "x": 689.1904645647318,
+  "y": 398.85714285714295,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "53feafc9-6e2b-47fd-bf44-79f0c6f928be",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

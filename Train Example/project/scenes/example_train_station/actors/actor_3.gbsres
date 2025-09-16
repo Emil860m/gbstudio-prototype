@@ -1,0 +1,96 @@
+{
+  "_resourceType": "actor",
+  "id": "c89a4b90-1c82-4fef-8c48-d828bedd2986",
+  "_index": 2,
+  "symbol": "actor_2",
+  "prefabId": "",
+  "name": "",
+  "x": 16,
+  "y": 13,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "143d1fcf-e60c-445a-bef4-38fb42fd681b",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+      },
+      "id": "1dbce95f-9de4-4df3-9c01-d4a7a257cfaa"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Huh?! What time is\nit?!?!"
+        ],
+        "avatarId": ""
+      },
+      "id": "59dac525-f412-4e46-84bd-7027337d6cde"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "up"
+        }
+      },
+      "id": "433a6b81-e2af-4c20-95c2-2212b828e205"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202"
+      },
+      "id": "b3cabdde-7e57-4bdc-a832-75f149183bb1"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        }
+      },
+      "id": "0283bf72-c20c-44ad-af61-7a6276e0a36f"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Ugh, I missed my \ntrain... But I'm",
+          "just so sleepy...\nzzz..."
+        ],
+        "avatarId": ""
+      },
+      "id": "1759572f-6f32-461f-a776-b6865223c50f"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "2d4b251d-0241-40eb-98e1-e396b236772c"
+      },
+      "id": "8102481d-5ad5-4240-a979-fc625d91b359"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

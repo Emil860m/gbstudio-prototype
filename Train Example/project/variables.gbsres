@@ -1,0 +1,40 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "IsTrainMoving",
+      "symbol": "var_istrainmoving"
+    },
+    {
+      "id": "ba408eab-ec5b-4986-95e8-78a24430cab5__L0",
+      "name": "CurrentFrame",
+      "symbol": "var_currentframe"
+    },
+    {
+      "id": "c6079ef4-1e23-45c7-bae6-ebf3fd04f709__L0",
+      "name": "AdFrame",
+      "symbol": "var_adframe"
+    },
+    {
+      "id": "44fe89da-4777-40d7-9473-04d0ed766ed7__L0",
+      "name": "WindowFrame",
+      "symbol": "var_windowframe"
+    },
+    {
+      "id": "343de7cf-d210-43df-a908-610fa0605d2c__L0",
+      "name": "AdFrame",
+      "symbol": "var_adframe_0"
+    },
+    {
+      "id": "44fe89da-4777-40d7-9473-04d0ed766ed7__L1",
+      "name": "RunWindowAnimation",
+      "symbol": "var_runwindowanimation_0"
+    },
+    {
+      "id": "3838688f-d046-4015-ba20-fec18b3e5038__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    }
+  ]
+}

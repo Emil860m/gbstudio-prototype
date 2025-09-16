@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "32ae9f4c-c7c1-46bc-ad85-7d091e727af0",
+  "name": "train_station",
+  "symbol": "bg_train_station",
+  "width": 29,
+  "height": 18,
+  "imageWidth": 232,
+  "imageHeight": 144,
+  "filename": "train_station.png",
+  "tileColors": "",
+  "autoColor": false
+}

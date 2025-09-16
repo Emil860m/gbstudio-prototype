@@ -1,0 +1,108 @@
+{
+  "_resourceType": "scene",
+  "id": "ba408eab-ec5b-4986-95e8-78a24430cab5",
+  "_index": 0,
+  "type": "TOPDOWN",
+  "name": "Example Train Station",
+  "symbol": "scene_1",
+  "x": 276.42857142857133,
+  "y": 224.5714285714285,
+  "width": 29,
+  "height": 18,
+  "backgroundId": "32ae9f4c-c7c1-46bc-ad85-7d091e727af0",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "143d1fcf-e60c-445a-bef4-38fb42fd681b",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "1a88f72d-79c6-4b6b-9a9d-d7a8b3d9232a"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "e0c54fa7-26d7-4e64-bfa8-231c478fc0f3"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "duration": 0.5,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": true,
+        "timer": 1
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_ESCALATOR_ANIMATOR",
+            "args": {
+              "top_left_x": 4,
+              "top_left_y": 7,
+              "current_frame": "L0",
+              "source_name": "escalator_tiles",
+              "__collapse": false
+            },
+            "id": "853e9de3-0693-4b5b-9808-3a03270172ed"
+          },
+          {
+            "command": "EVENT_IF_EXPRESSION",
+            "args": {
+              "expression": "$L0$%2 == 0",
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TILE_ANIMATOR",
+                  "args": {
+                    "target_x": 17,
+                    "target_y": 3,
+                    "source_idx": 32,
+                    "source_name": "escalator_tiles"
+                  },
+                  "id": "5899ffef-baf4-483a-8aac-5aa1f06b02f5"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_TILE_ANIMATOR",
+                  "args": {
+                    "target_x": 17,
+                    "target_y": 3,
+                    "source_idx": 33,
+                    "source_name": "escalator_tiles"
+                  },
+                  "id": "4e29236b-46f1-4a9e-8667-9fc390ab5a7b"
+                }
+              ]
+            },
+            "id": "16b6eab6-9a5d-4be7-982b-f80b5b2ae9b4"
+          }
+        ]
+      },
+      "id": "6af3765b-7a99-4047-a693-7b95a41c66dd"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00ae+0f7+007+0f5+00a+0f!005+0f2+00!0f6+004+0f7+003+0f!002+0f2+002+0f3+00f+0f5+001b+0f6+002+0f2+0011+0f3+004+0f2+006+0f!002+0f!002+0f!002+0f!006+0fa+003+0fa+004+0f4+002+0f3+00!0f2+003+0f!002+0f!002+0f!002+0f!006+0f2+004+0f!00!0f2+0011+0f4+006+0f2+0013+0f2+006+0f!0012+0f1f+00!"
+}

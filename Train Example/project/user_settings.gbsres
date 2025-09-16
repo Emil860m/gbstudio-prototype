@@ -1,0 +1,41 @@
+{
+  "_resourceType": "settings",
+  "worldScrollX": 440,
+  "worldScrollY": 258,
+  "zoom": 175,
+  "navigatorSplitSizes": [
+    331,
+    205,
+    205,
+    205
+  ],
+  "showNavigator": true,
+  "showCollisions": true,
+  "showConnections": true,
+  "previewAsMono": false,
+  "showCollisionSlopeTiles": false,
+  "favoriteEvents": [
+    "EVENT_TEXT",
+    "EVENT_SWITCH_SCENE"
+  ],
+  "debuggerEnabled": true,
+  "debuggerScriptType": "editor",
+  "debuggerVariablesFilter": "all",
+  "debuggerCollapsedPanes": [],
+  "debuggerPauseOnScriptChanged": false,
+  "debuggerPauseOnWatchedVariableChanged": false,
+  "debuggerBreakpoints": [
+    {
+      "scriptEventId": "4d4ede4a-5a3f-4c58-9d99-5c4f5041b7fa",
+      "context": {
+        "type": "entity",
+        "entityType": "actor",
+        "entityId": "3838688f-d046-4015-ba20-fec18b3e5038",
+        "sceneId": "44fe89da-4777-40d7-9473-04d0ed766ed7",
+        "scriptKey": "updateScript"
+      }
+    }
+  ],
+  "debuggerWatchedVariables": [],
+  "openBuildLogOnWarnings": false
+}

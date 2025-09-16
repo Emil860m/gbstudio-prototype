@@ -1,0 +1,43 @@
+{
+  "_resourceType": "trigger",
+  "id": "a4a1f5ab-a2c1-4367-86b8-de60847d59e1",
+  "_index": 2,
+  "symbol": "trigger_8",
+  "prefabId": "",
+  "name": "",
+  "x": 2,
+  "y": 6,
+  "width": 4,
+  "height": 1,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "We can't leave \nwhile the train \nis moving!"
+        ],
+        "avatarId": ""
+      },
+      "id": "42155aa6-ea42-46c4-a30a-3f5d93996f92"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 1
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "3dc05072-a895-4846-a51b-87ca443a9ab2"
+    }
+  ],
+  "leaveScript": []
+}

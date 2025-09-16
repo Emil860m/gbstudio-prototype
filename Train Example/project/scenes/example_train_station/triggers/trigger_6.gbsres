@@ -1,0 +1,43 @@
+{
+  "_resourceType": "trigger",
+  "id": "711c9bc2-3b65-4fd8-a411-8bf7e3b23e03",
+  "_index": 5,
+  "symbol": "trigger_5",
+  "prefabId": "",
+  "name": "",
+  "x": 17,
+  "y": 7,
+  "width": 2,
+  "height": 1,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 1
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "2017f2d4-1de2-475f-bb75-2d196343039b"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Only the conductor\nis allowed there!"
+        ],
+        "avatarId": ""
+      },
+      "id": "d9ddf3b9-ed17-4ab0-b6fc-bb5988b979a6"
+    }
+  ],
+  "leaveScript": []
+}

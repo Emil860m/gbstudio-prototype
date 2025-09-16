@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "6c0786a6-560a-4c12-8895-fba88f4baecc",
+  "_index": 0,
+  "symbol": "actor_0",
+  "prefabId": "",
+  "name": "",
+  "x": 26,
+  "y": 9,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "143d1fcf-e60c-445a-bef4-38fb42fd681b",
+  "paletteId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I got a good deal\nat the market."
+        ],
+        "avatarId": ""
+      },
+      "id": "4f8934db-7854-4334-a432-a1ac3c1a86a8"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

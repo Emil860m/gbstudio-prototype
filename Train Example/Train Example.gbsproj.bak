@@ -3734,7 +3734,7 @@
             "id": "c6079ef4-1e23-45c7-bae6-ebf3fd04f709",
             "symbol": "scene_4",
             "x": 859.2381068638393,
-            "y": 225.71428571428578,
+            "y": 225.1428571428572,
             "actors": [
                 {
                     "name": "",
@@ -4539,8 +4539,8 @@
                     "command": "EVENT_IF_TRUE",
                     "args": {
                         "variable": "0",
-                        "__collapseElse": true,
-                        "__collapse": true
+                        "__collapseElse": false,
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -4696,7 +4696,7 @@
                             {
                                 "command": "EVENT_GROUP",
                                 "args": {
-                                    "__collapse": false,
+                                    "__collapse": true,
                                     "__label": "SetDoorToOpenFrame",
                                     "__comment": false
                                 },
@@ -4851,7 +4851,141 @@
                                 "id": "c519aaef-3fe5-4996-88c4-db400c7b6ff3"
                             }
                         ],
-                        "false": []
+                        "false": [
+                            {
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__collapse": true,
+                                    "__label": "SetDoorToOpenFrame",
+                                    "__comment": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_TILE_ANIMATOR",
+                                            "args": {
+                                                "target_x": 3,
+                                                "target_y": 5,
+                                                "source_idx": 92,
+                                                "source_name": "interior_tiles"
+                                            },
+                                            "id": "09c923d5-019c-4906-a56d-7274d9a86d8b"
+                                        },
+                                        {
+                                            "command": "EVENT_TILE_ANIMATOR",
+                                            "args": {
+                                                "target_x": 4,
+                                                "target_y": 5,
+                                                "source_idx": 93,
+                                                "source_name": "interior_tiles"
+                                            },
+                                            "id": "65d03049-cac1-4707-8583-42927d12dde4"
+                                        },
+                                        {
+                                            "command": "EVENT_TILE_ANIMATOR",
+                                            "args": {
+                                                "target_x": 5,
+                                                "target_y": 5,
+                                                "source_idx": 94,
+                                                "source_name": "interior_tiles"
+                                            },
+                                            "id": "7acc7bcc-2762-48a3-9f82-f44ba09830be"
+                                        },
+                                        {
+                                            "command": "EVENT_TILE_ANIMATOR",
+                                            "args": {
+                                                "target_x": 6,
+                                                "target_y": 5,
+                                                "source_idx": 95,
+                                                "source_name": "interior_tiles"
+                                            },
+                                            "id": "aca82469-e8c3-40bb-bfe7-eda801a88d67"
+                                        },
+                                        {
+                                            "command": "EVENT_TILE_ANIMATOR",
+                                            "args": {
+                                                "target_x": 3,
+                                                "target_y": 6,
+                                                "source_idx": 96,
+                                                "source_name": "interior_tiles"
+                                            },
+                                            "id": "d603398e-c920-4144-8744-58aa72869fb4"
+                                        },
+                                        {
+                                            "command": "EVENT_TILE_ANIMATOR",
+                                            "args": {
+                                                "target_x": 4,
+                                                "target_y": 6,
+                                                "source_idx": 97,
+                                                "source_name": "interior_tiles"
+                                            },
+                                            "id": "67f73140-5505-4ba2-a712-99088aa51ed5"
+                                        },
+                                        {
+                                            "command": "EVENT_TILE_ANIMATOR",
+                                            "args": {
+                                                "target_x": 5,
+                                                "target_y": 6,
+                                                "source_idx": 98,
+                                                "source_name": "interior_tiles"
+                                            },
+                                            "id": "c6487e3b-c145-4a94-a3fd-3a65630bb168"
+                                        },
+                                        {
+                                            "command": "EVENT_TILE_ANIMATOR",
+                                            "args": {
+                                                "target_x": 6,
+                                                "target_y": 6,
+                                                "source_idx": 99,
+                                                "source_name": "interior_tiles"
+                                            },
+                                            "id": "c7103ea1-1963-41b7-b42e-dee26a7ce600"
+                                        },
+                                        {
+                                            "command": "EVENT_TILE_ANIMATOR",
+                                            "args": {
+                                                "target_x": 3,
+                                                "target_y": 7,
+                                                "source_idx": 100,
+                                                "source_name": "interior_tiles"
+                                            },
+                                            "id": "b9553db8-444b-4298-8edb-fedc9129de18"
+                                        },
+                                        {
+                                            "command": "EVENT_TILE_ANIMATOR",
+                                            "args": {
+                                                "target_x": 4,
+                                                "target_y": 7,
+                                                "source_idx": 101,
+                                                "source_name": "interior_tiles"
+                                            },
+                                            "id": "7d78ef75-21d9-4755-a364-482ca5d3af38"
+                                        },
+                                        {
+                                            "command": "EVENT_TILE_ANIMATOR",
+                                            "args": {
+                                                "target_x": 5,
+                                                "target_y": 7,
+                                                "source_idx": 102,
+                                                "source_name": "interior_tiles"
+                                            },
+                                            "id": "43cff58d-cafb-4f71-a2d2-4229fc00f0b1"
+                                        },
+                                        {
+                                            "command": "EVENT_TILE_ANIMATOR",
+                                            "args": {
+                                                "target_x": 6,
+                                                "target_y": 7,
+                                                "source_idx": 103,
+                                                "source_name": "interior_tiles"
+                                            },
+                                            "id": "0bcfceb6-4b43-42b5-b299-9aebf5774bec"
+                                        }
+                                    ]
+                                },
+                                "id": "f3ffdaac-9587-4c46-aad7-2fd44750ecae"
+                            }
+                        ]
                     },
                     "id": "f1a54bf4-d1a6-44e8-b78c-235673a6e276"
                 }
@@ -6524,8 +6658,8 @@
                     "command": "EVENT_IF_TRUE",
                     "args": {
                         "variable": "0",
-                        "__collapseElse": true,
-                        "__collapse": true
+                        "__collapseElse": false,
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -6681,7 +6815,7 @@
                             {
                                 "command": "EVENT_GROUP",
                                 "args": {
-                                    "__collapse": false,
+                                    "__collapse": true,
                                     "__label": "SetDoorToOpenFrame",
                                     "__comment": false
                                 },
@@ -6836,7 +6970,141 @@
                                 "id": "fa726e0e-7e48-4658-ab2f-150129effe87"
                             }
                         ],
-                        "false": []
+                        "false": [
+                            {
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__collapse": true,
+                                    "__label": "SetDoorToOpenFrame",
+                                    "__comment": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_TILE_ANIMATOR",
+                                            "args": {
+                                                "target_x": 3,
+                                                "target_y": 5,
+                                                "source_idx": 92,
+                                                "source_name": "interior_tiles"
+                                            },
+                                            "id": "1ae18dde-9a67-4c0b-88e2-b4c55911a7aa"
+                                        },
+                                        {
+                                            "command": "EVENT_TILE_ANIMATOR",
+                                            "args": {
+                                                "target_x": 4,
+                                                "target_y": 5,
+                                                "source_idx": 93,
+                                                "source_name": "interior_tiles"
+                                            },
+                                            "id": "5cbe58de-19fe-4844-a1a7-abc46fc88789"
+                                        },
+                                        {
+                                            "command": "EVENT_TILE_ANIMATOR",
+                                            "args": {
+                                                "target_x": 5,
+                                                "target_y": 5,
+                                                "source_idx": 94,
+                                                "source_name": "interior_tiles"
+                                            },
+                                            "id": "c09d7fc9-204b-4bc3-9e0f-88c6f6a22d1c"
+                                        },
+                                        {
+                                            "command": "EVENT_TILE_ANIMATOR",
+                                            "args": {
+                                                "target_x": 6,
+                                                "target_y": 5,
+                                                "source_idx": 95,
+                                                "source_name": "interior_tiles"
+                                            },
+                                            "id": "dc409773-6e3b-41da-9ac4-c181ff8a8d63"
+                                        },
+                                        {
+                                            "command": "EVENT_TILE_ANIMATOR",
+                                            "args": {
+                                                "target_x": 3,
+                                                "target_y": 6,
+                                                "source_idx": 96,
+                                                "source_name": "interior_tiles"
+                                            },
+                                            "id": "24d70364-dbb4-44f2-8b77-0bb8242e2f98"
+                                        },
+                                        {
+                                            "command": "EVENT_TILE_ANIMATOR",
+                                            "args": {
+                                                "target_x": 4,
+                                                "target_y": 6,
+                                                "source_idx": 97,
+                                                "source_name": "interior_tiles"
+                                            },
+                                            "id": "70c9e0d7-0888-45e5-ad33-6ca70bc90851"
+                                        },
+                                        {
+                                            "command": "EVENT_TILE_ANIMATOR",
+                                            "args": {
+                                                "target_x": 5,
+                                                "target_y": 6,
+                                                "source_idx": 98,
+                                                "source_name": "interior_tiles"
+                                            },
+                                            "id": "56ca8690-1e8b-40da-80f9-3424dfb9444a"
+                                        },
+                                        {
+                                            "command": "EVENT_TILE_ANIMATOR",
+                                            "args": {
+                                                "target_x": 6,
+                                                "target_y": 6,
+                                                "source_idx": 99,
+                                                "source_name": "interior_tiles"
+                                            },
+                                            "id": "8a9e2dc5-2f79-4b53-a414-3f32152e81a1"
+                                        },
+                                        {
+                                            "command": "EVENT_TILE_ANIMATOR",
+                                            "args": {
+                                                "target_x": 3,
+                                                "target_y": 7,
+                                                "source_idx": 100,
+                                                "source_name": "interior_tiles"
+                                            },
+                                            "id": "ec4cde1d-df37-436f-a1f6-ac56324d9ff2"
+                                        },
+                                        {
+                                            "command": "EVENT_TILE_ANIMATOR",
+                                            "args": {
+                                                "target_x": 4,
+                                                "target_y": 7,
+                                                "source_idx": 101,
+                                                "source_name": "interior_tiles"
+                                            },
+                                            "id": "63bc7f3e-765b-421d-b028-625212fe886b"
+                                        },
+                                        {
+                                            "command": "EVENT_TILE_ANIMATOR",
+                                            "args": {
+                                                "target_x": 5,
+                                                "target_y": 7,
+                                                "source_idx": 102,
+                                                "source_name": "interior_tiles"
+                                            },
+                                            "id": "25277cdb-c626-404d-ad5d-4534e11726dc"
+                                        },
+                                        {
+                                            "command": "EVENT_TILE_ANIMATOR",
+                                            "args": {
+                                                "target_x": 6,
+                                                "target_y": 7,
+                                                "source_idx": 103,
+                                                "source_name": "interior_tiles"
+                                            },
+                                            "id": "b13a408a-963b-43c8-892b-57ccf3c9d26d"
+                                        }
+                                    ]
+                                },
+                                "id": "30e4d454-7665-40dc-94a2-68ff7989d907"
+                            }
+                        ]
                     },
                     "id": "3367ba3c-eb01-4dee-a0b8-5789bac0b6a7"
                 }
