@@ -32,7 +32,7 @@
       "command": "EVENT_ACTOR_HIDE",
       "args": {
         "actorId": "$self$",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "1e6ce43c-8933-406e-ae11-559da91f3c71"
     },
@@ -43,7 +43,7 @@
         "duration": 1,
         "frames": 30,
         "__scriptTabs": "end",
-        "__comment": true
+        "__comment": false
       },
       "children": {
         "script": [
