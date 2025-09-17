@@ -1,0 +1,141 @@
+{
+  "_resourceType": "script",
+  "id": "f7708c85-f433-4f2c-9f57-ed8fb7f82b38",
+  "name": "EscalatorTileSwap",
+  "symbol": "script_1",
+  "description": "Escalator TileSwap",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "0",
+        "choices": 3,
+        "__collapseCase0": false,
+        "value0": 0,
+        "__collapseCase1": false,
+        "value1": 1,
+        "__collapseCase2": false,
+        "value2": 2,
+        "__collapseCase3": false,
+        "value3": 3,
+        "__collapseCase4": false,
+        "value4": 5,
+        "__collapseCase5": false,
+        "value5": 6,
+        "__collapseCase6": false,
+        "value6": 7,
+        "__collapseCase7": false,
+        "value7": 8,
+        "__collapseCase8": false,
+        "value8": 9,
+        "__collapseCase9": false,
+        "value9": 10,
+        "__collapseCase10": false,
+        "value10": 11,
+        "__collapseCase11": false,
+        "value11": 12,
+        "__collapseCase12": false,
+        "value12": 13,
+        "__collapseCase13": false,
+        "value13": 14,
+        "__collapseCase14": false,
+        "value14": 15,
+        "__collapseCase15": false,
+        "value15": 16,
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true0": [
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": ";Frame 0 tile positions\nVM_REPLACE_TILE_XY 2, 7, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 0\nVM_POP 1\nVM_REPLACE_TILE_XY 3, 7, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 1\nVM_POP 1\nVM_REPLACE_TILE_XY 4, 7, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 2\nVM_REPLACE_TILE_XY 2, 8, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 3\nVM_REPLACE_TILE_XY 3, 8, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 4\nVM_REPLACE_TILE_XY 4, 8, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 31\nVM_REPLACE_TILE_XY 5, 8, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 1\nVM_REPLACE_TILE_XY 2, 9, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 5\nVM_REPLACE_TILE_XY 3, 9, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 6\nVM_REPLACE_TILE_XY 4, 9, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 7\nVM_REPLACE_TILE_XY 5, 9, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 4\nVM_REPLACE_TILE_XY 2, 10, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 8\nVM_REPLACE_TILE_XY 3, 10, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 9\nVM_REPLACE_TILE_XY 4, 10, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 10\nVM_REPLACE_TILE_XY 5, 10, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 6\nVM_REPLACE_TILE_XY 4, 11, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 11\nVM_REPLACE_TILE_XY 5, 11, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 9",
+              "__collapse": true
+            },
+            "id": "a7f29767-8f2e-4f05-bd1a-a0c3dbd9d378"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "0",
+              "__collapse": false
+            },
+            "id": "a25bab1c-bef8-4779-bece-69218b15e725"
+          }
+        ],
+        "true1": [
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": ";Frame 1 tile positions\nVM_REPLACE_TILE_XY 2, 7, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 12\nVM_POP 1\nVM_REPLACE_TILE_XY 3, 7, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 13\nVM_POP 1\nVM_REPLACE_TILE_XY 4, 7, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 14\nVM_REPLACE_TILE_XY 2, 8, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 15\nVM_REPLACE_TILE_XY 3, 8, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 16\nVM_REPLACE_TILE_XY 4, 8, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 17\nVM_REPLACE_TILE_XY 5, 8, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 13\nVM_REPLACE_TILE_XY 2, 9, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 18\nVM_REPLACE_TILE_XY 3, 9, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 19\nVM_REPLACE_TILE_XY 4, 9, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 20\nVM_REPLACE_TILE_XY 5, 9, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 16\nVM_REPLACE_TILE_XY 2, 10, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 21\nVM_REPLACE_TILE_XY 3, 10, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 22\nVM_REPLACE_TILE_XY 4, 10, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 23\nVM_REPLACE_TILE_XY 5, 10, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 19\nVM_REPLACE_TILE_XY 4, 11, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 24\nVM_REPLACE_TILE_XY 5, 11, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 22",
+              "__collapse": true
+            },
+            "id": "1b181a5a-84ca-468a-a253-e96bbb862172"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "0"
+            },
+            "id": "95bd6afd-73c7-453c-9181-23507c13de5b"
+          }
+        ],
+        "true2": [
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": ";Frame 2 tile positions\nVM_REPLACE_TILE_XY 2, 7, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 18\nVM_POP 1\nVM_REPLACE_TILE_XY 3, 7, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 19\nVM_POP 1\nVM_REPLACE_TILE_XY 4, 7, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 25\nVM_REPLACE_TILE_XY 2, 8, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 21\nVM_REPLACE_TILE_XY 3, 8, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 22\nVM_REPLACE_TILE_XY 4, 8, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 23\nVM_REPLACE_TILE_XY 5, 8, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 19\nVM_REPLACE_TILE_XY 2, 9, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 12\nVM_REPLACE_TILE_XY 3, 9, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 13\nVM_REPLACE_TILE_XY 4, 9, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 26\nVM_REPLACE_TILE_XY 5, 9, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 22\nVM_REPLACE_TILE_XY 2, 10, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 15\nVM_REPLACE_TILE_XY 3, 10, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 16\nVM_REPLACE_TILE_XY 4, 10, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 17\nVM_REPLACE_TILE_XY 5, 10, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 13\nVM_REPLACE_TILE_XY 4, 11, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 27\nVM_REPLACE_TILE_XY 5, 11, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 16",
+              "__collapse": false
+            },
+            "id": "df51adac-2c9c-4019-94fc-05d0894734ef"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "0"
+            },
+            "id": "3404aeae-d83a-4970-8015-a7192a1dd639"
+          }
+        ],
+        "true3": [],
+        "true4": [],
+        "true5": [],
+        "true6": [],
+        "true7": [],
+        "true8": [],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": [
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": ";Frame 3 tile positions\nVM_REPLACE_TILE_XY 2, 7, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 5\nVM_POP 1\nVM_REPLACE_TILE_XY 3, 7, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 6\nVM_POP 1\nVM_REPLACE_TILE_XY 4, 7, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 25\nVM_REPLACE_TILE_XY 2, 8, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 8\nVM_REPLACE_TILE_XY 3, 8, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 9\nVM_REPLACE_TILE_XY 4, 8, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 10\nVM_REPLACE_TILE_XY 5, 8, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 6\nVM_REPLACE_TILE_XY 2, 9, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 0\nVM_REPLACE_TILE_XY 3, 9, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 1\nVM_REPLACE_TILE_XY 4, 9, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 11\nVM_REPLACE_TILE_XY 5, 9, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 9\nVM_REPLACE_TILE_XY 2, 10, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 3\nVM_REPLACE_TILE_XY 3, 10, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 4\nVM_REPLACE_TILE_XY 4, 10, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 31\nVM_REPLACE_TILE_XY 5, 10, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 1\nVM_REPLACE_TILE_XY 4, 11, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 28\nVM_REPLACE_TILE_XY 5, 11, ___bank_bg_escalator_tiles_tileset, _bg_escalator_tiles_tileset, 4",
+              "__collapse": false
+            },
+            "id": "0f917091-4877-4e61-b896-a0bec18a91dc"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "0",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "d4ba6c43-1ced-4d07-a2e4-b93c5a99ddc5"
+          }
+        ]
+      },
+      "id": "244dba27-a28a-45a1-8abc-004be4824fa4"
+    }
+  ]
+}

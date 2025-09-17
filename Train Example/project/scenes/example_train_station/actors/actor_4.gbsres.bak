@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "2a06f263-22a4-40e1-9587-d0a632b5776b",
+  "_index": 3,
+  "symbol": "actor_3",
+  "prefabId": "",
+  "name": "",
+  "x": 19,
+  "y": 11,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "143d1fcf-e60c-445a-bef4-38fb42fd681b",
+  "paletteId": "",
+  "direction": "up",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I've almost beat\nall of Tetris!"
+        ],
+        "avatarId": ""
+      },
+      "id": "6e892c41-cc0d-4e18-a6b0-b70244bfa2db"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

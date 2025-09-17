@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "608af87b-3f27-4ae9-97a7-d702f3882d82",
+  "name": "train_interior_bullet",
+  "symbol": "bg_train_interior_bullet",
+  "width": 42,
+  "height": 18,
+  "imageWidth": 336,
+  "imageHeight": 144,
+  "filename": "train_interior_bullet.png",
+  "tileColors": "",
+  "autoColor": false
+}

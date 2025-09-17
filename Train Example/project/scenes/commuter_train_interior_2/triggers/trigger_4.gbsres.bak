@@ -1,42 +1,32 @@
 {
   "_resourceType": "trigger",
-  "id": "f946e83f-fb2f-44af-9ec5-a2a656fc5244",
+  "id": "4ea425b6-9ed1-409a-9b27-9fba4c6d3cb0",
   "_index": 3,
-  "symbol": "trigger_21",
+  "symbol": "trigger_22",
   "prefabId": "",
   "name": "",
-  "x": 3,
-  "y": 13,
-  "width": 4,
+  "x": 4,
+  "y": 7,
+  "width": 2,
   "height": 1,
   "prefabScriptOverrides": {},
   "script": [
     {
-      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "actorId": "$self$",
+        "sceneId": "ba408eab-ec5b-4986-95e8-78a24430cab5",
         "x": {
           "type": "number",
-          "value": 0
+          "value": 15
         },
         "y": {
           "type": "number",
-          "value": -1
+          "value": 8
         },
-        "moveType": "horizontal",
-        "useCollisions": false
+        "direction": "down",
+        "fadeSpeed": "2"
       },
-      "id": "44fed1de-c362-4f81-9e37-c18afbd66d38"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "We don't exit on\nthis side at this\nstation!"
-        ],
-        "avatarId": ""
-      },
-      "id": "be855318-fad7-4437-bc0d-34767c107a44"
+      "id": "2870cf5d-9fb7-4acc-adcc-a8790c345579"
     }
   ],
   "leaveScript": []

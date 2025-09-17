@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "a1255a3c-cd4c-46bd-b4cd-64391ed77e82",
+  "name": "train_interior_commuter_b",
+  "symbol": "bg_train_interior_commuter__0",
+  "width": 42,
+  "height": 18,
+  "imageWidth": 336,
+  "imageHeight": 144,
+  "filename": "train_interior_commuter_b.png",
+  "tileColors": "",
+  "autoColor": false
+}

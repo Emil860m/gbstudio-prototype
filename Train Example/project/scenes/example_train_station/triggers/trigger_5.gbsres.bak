@@ -1,43 +1,33 @@
 {
   "_resourceType": "trigger",
-  "id": "711c9bc2-3b65-4fd8-a411-8bf7e3b23e03",
-  "_index": 4,
-  "symbol": "trigger_5",
-  "prefabId": "",
+  "id": "ecbc5349-2b63-4aa6-b118-dbe531e8fee8",
   "name": "",
-  "x": 17,
+  "prefabId": "",
+  "x": 15,
   "y": 7,
-  "width": 2,
-  "height": 1,
+  "symbol": "trigger_4",
   "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
   "script": [
     {
-      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "actorId": "$self$",
+        "sceneId": "44fe89da-4777-40d7-9473-04d0ed766ed7",
         "x": {
           "type": "number",
-          "value": 0
+          "value": 3
         },
         "y": {
           "type": "number",
-          "value": 1
+          "value": 7
         },
-        "moveType": "horizontal",
-        "useCollisions": false
+        "direction": "",
+        "fadeSpeed": "2"
       },
-      "id": "2017f2d4-1de2-475f-bb75-2d196343039b"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "Only the conductor\nis allowed there!"
-        ],
-        "avatarId": ""
-      },
-      "id": "d9ddf3b9-ed17-4ab0-b6fc-bb5988b979a6"
+      "id": "c92ac8a4-9ef7-452e-b9d9-bb535dbb8d50"
     }
   ],
-  "leaveScript": []
+  "leaveScript": [],
+  "_index": 4
 }

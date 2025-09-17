@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "36589ebe-c40c-4ece-b3fc-742c6f6545d1",
+  "_index": 1,
+  "symbol": "actor_1",
+  "prefabId": "",
+  "name": "",
+  "x": 26,
+  "y": 13,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "143d1fcf-e60c-445a-bef4-38fb42fd681b",
+  "paletteId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I'm meeting up\nwith my girlfriend"
+        ],
+        "avatarId": ""
+      },
+      "id": "f3efac00-1f66-4f02-9de5-d6c048bd7d63"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}
