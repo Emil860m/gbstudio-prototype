@@ -1,7 +1,7 @@
 {
   "_resourceType": "settings",
-  "worldScrollX": 792,
-  "worldScrollY": 376.79998779296875,
+  "worldScrollX": 445,
+  "worldScrollY": 284,
   "zoom": 175,
   "navigatorSplitSizes": [
     331,
@@ -25,6 +25,26 @@
   "debuggerPauseOnScriptChanged": false,
   "debuggerPauseOnWatchedVariableChanged": false,
   "debuggerBreakpoints": [
+    {
+      "scriptEventId": "f658ffe2-85a3-4956-8913-6910c4fe61ec",
+      "context": {
+        "type": "entity",
+        "entityType": "scene",
+        "entityId": "44fe89da-4777-40d7-9473-04d0ed766ed7",
+        "sceneId": "44fe89da-4777-40d7-9473-04d0ed766ed7",
+        "scriptKey": "script"
+      }
+    },
+    {
+      "scriptEventId": "cbdf7d03-545b-46cd-a47e-95b8b5afe245",
+      "context": {
+        "type": "entity",
+        "entityType": "scene",
+        "entityId": "44fe89da-4777-40d7-9473-04d0ed766ed7",
+        "sceneId": "44fe89da-4777-40d7-9473-04d0ed766ed7",
+        "scriptKey": "script"
+      }
+    },
     {
       "scriptEventId": "6c168220-909b-4aa4-b08c-352d6e298969",
       "context": {

@@ -789,6 +789,64 @@
         ]
       },
       "id": "7b508510-0015-4a19-9a72-b023e57c9e1d"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "1"
+                },
+                "valueB": {
+                  "type": "true"
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "1",
+                    "value": {
+                      "type": "false"
+                    }
+                  },
+                  "id": "cbdf7d03-545b-46cd-a47e-95b8b5afe245"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "1",
+                    "value": {
+                      "type": "true"
+                    }
+                  },
+                  "id": "f658ffe2-85a3-4956-8913-6910c4fe61ec"
+                }
+              ]
+            },
+            "id": "2ddad53e-37a9-4696-a518-e758a16e9fe7"
+          }
+        ]
+      },
+      "id": "e7716482-64b3-449e-a57b-f8e744d0befa"
     }
   ],
   "playerHit1Script": [],

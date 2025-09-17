@@ -5,15 +5,15 @@
   "symbol": "actor_4",
   "prefabId": "",
   "name": "",
-  "x": 9,
-  "y": 3,
+  "x": 3,
+  "y": 11,
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "143d1fcf-e60c-445a-bef4-38fb42fd681b",
+  "spriteSheetId": "7f645ed8-b845-4b9e-8d55-2396b3335760",
   "paletteId": "",
   "direction": "down",
   "moveSpeed": 1,
-  "animSpeed": 15,
+  "animSpeed": 7,
   "isPinned": false,
   "persistent": true,
   "collisionGroup": "",
@@ -322,7 +322,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [

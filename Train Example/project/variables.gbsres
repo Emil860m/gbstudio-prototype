@@ -19,7 +19,7 @@
     {
       "id": "44fe89da-4777-40d7-9473-04d0ed766ed7__L0",
       "name": "WindowFrame",
-      "symbol": "var_windowframe"
+      "symbol": "var_windowframe_0"
     },
     {
       "id": "343de7cf-d210-43df-a908-610fa0605d2c__L0",
@@ -45,6 +45,21 @@
       "id": "d771d073-0258-4065-9351-9fa2e147ec45__L0",
       "name": "Local 0",
       "symbol": "var_local_2"
+    },
+    {
+      "id": "4",
+      "name": "Battery level counter",
+      "symbol": "var_battery_level_counter"
+    },
+    {
+      "id": "5",
+      "name": "Battery frame",
+      "symbol": "var_battery_frame"
+    },
+    {
+      "id": "1",
+      "name": "tazer equiped",
+      "symbol": "var_tazer_equiped"
     }
   ]
 }
