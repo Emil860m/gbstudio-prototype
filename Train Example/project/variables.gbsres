@@ -60,6 +60,26 @@
       "id": "1",
       "name": "tazer equiped",
       "symbol": "var_tazer_equiped"
+    },
+    {
+      "id": "152",
+      "name": "health",
+      "symbol": "var_health"
+    },
+    {
+      "id": "b6704063-9c16-460d-b230-26011c791381__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "2",
+      "name": "player x",
+      "symbol": "var_player_x"
+    },
+    {
+      "id": "3",
+      "name": "player y",
+      "symbol": "var_player_y"
     }
   ]
 }

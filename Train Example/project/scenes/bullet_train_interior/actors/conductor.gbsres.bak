@@ -4,7 +4,7 @@
   "_index": 0,
   "symbol": "actor_4",
   "prefabId": "",
-  "name": "",
+  "name": "Conductor",
   "x": 3,
   "y": 11,
   "frame": 0,
@@ -68,6 +68,15 @@
               "__collapse": true
             },
             "id": "1b007a77-0a69-4c4d-b1f6-2f3e4d0075de"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "$self$",
+              "spriteSheetId": "9dc4fcd7-be00-48b5-8431-c3f1ec9c59fd",
+              "__collapse": true
+            },
+            "id": "5793772a-1d7f-421a-822e-ae6f6ebb9d1d"
           }
         ],
         "false": []
@@ -277,11 +286,11 @@
           },
           "valueB": {
             "type": "number",
-            "value": 50
+            "value": 25
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -302,6 +311,25 @@
               "actorId": "$self$"
             },
             "id": "11bfd91c-7947-43b6-8da8-b3cbe6136f3c"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "$self$",
+              "spriteSheetId": "7f645ed8-b845-4b9e-8d55-2396b3335760"
+            },
+            "id": "03a9b28c-0177-4efc-b301-a19e3aac3886"
+          },
+          {
+            "command": "EVENT_TEXT_DRAW",
+            "args": {
+              "text": "Show your tickets",
+              "x": 1,
+              "y": 1,
+              "location": "background",
+              "__comment": true
+            },
+            "id": "a40b9674-373f-4941-98cd-6208eb356a40"
           }
         ],
         "false": []
@@ -322,7 +350,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -355,7 +383,7 @@
                     },
                     "otherActorId": "$self$",
                     "__collapseElse": false,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "children": {
                     "true": [
@@ -570,6 +598,171 @@
                     ]
                   },
                   "id": "3af8b7a5-c8c5-47a4-a47d-495b8543b91e"
+                },
+                {
+                  "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
+                  "args": {
+                    "actorId": "player",
+                    "operator": "<=",
+                    "distance": {
+                      "type": "number",
+                      "value": 2
+                    },
+                    "otherActorId": "$self$",
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_INC_VALUE",
+                        "args": {
+                          "variable": "154"
+                        },
+                        "id": "883f2bbf-e1a8-465c-8a43-321580430b20"
+                      },
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "condition": {
+                            "type": "eq",
+                            "valueA": {
+                              "type": "variable",
+                              "value": "154"
+                            },
+                            "valueB": {
+                              "type": "number",
+                              "value": 5
+                            }
+                          },
+                          "__collapseElse": true
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_INC_VALUE",
+                              "args": {
+                                "variable": "152"
+                              },
+                              "id": "9fd47cf9-0a88-4182-a16d-2b7c8551e85e"
+                            },
+                            {
+                              "command": "EVENT_IF",
+                              "args": {
+                                "condition": {
+                                  "type": "eq",
+                                  "valueA": {
+                                    "type": "variable",
+                                    "value": "152"
+                                  },
+                                  "valueB": {
+                                    "type": "number",
+                                    "value": 4
+                                  }
+                                },
+                                "__collapseElse": true
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_ACTOR_HIDE",
+                                    "args": {
+                                      "actorId": "6ca75fb9-3405-49c8-8fe4-92564910d90b",
+                                      "__collapse": true
+                                    },
+                                    "id": "1b41e41b-54ce-4613-9403-fbedd2eabf30"
+                                  },
+                                  {
+                                    "command": "EVENT_TEXT",
+                                    "args": {
+                                      "text": [
+                                        "Conductor:\n\"You don't have \na ticket.\nHere is a fine.\""
+                                      ],
+                                      "__section": "text",
+                                      "avatarId": "",
+                                      "minHeight": 6,
+                                      "maxHeight": 12,
+                                      "textX": 1,
+                                      "textY": 1,
+                                      "textHeight": 5,
+                                      "position": "bottom",
+                                      "clearPrevious": true,
+                                      "showFrame": "true",
+                                      "speedIn": -1,
+                                      "speedOut": -1,
+                                      "closeWhen": "key",
+                                      "closeButton": "a",
+                                      "closeDelayTime": 0.5,
+                                      "closeDelayFrames": 30,
+                                      "__collapse": true
+                                    },
+                                    "id": "f6abd7f7-0523-4306-b3d0-c67bb3107ae9"
+                                  },
+                                  {
+                                    "command": "EVENT_SWITCH_SCENE",
+                                    "args": {
+                                      "sceneId": "ba408eab-ec5b-4986-95e8-78a24430cab5",
+                                      "x": {
+                                        "type": "number",
+                                        "value": 13
+                                      },
+                                      "y": {
+                                        "type": "number",
+                                        "value": 9
+                                      },
+                                      "direction": "",
+                                      "fadeSpeed": "2",
+                                      "__collapse": true
+                                    },
+                                    "id": "79169077-74d2-4ff3-93aa-74f419c76fd0"
+                                  }
+                                ],
+                                "false": []
+                              },
+                              "id": "8b92fcfe-761c-4169-a66c-be977c679e7d"
+                            },
+                            {
+                              "command": "EVENT_ACTOR_SET_FRAME",
+                              "args": {
+                                "actorId": "6ca75fb9-3405-49c8-8fe4-92564910d90b",
+                                "frame": {
+                                  "type": "variable",
+                                  "value": "152"
+                                }
+                              },
+                              "id": "e0633d58-0875-4fe5-ab3a-6e22e5a46b58"
+                            },
+                            {
+                              "command": "EVENT_SET_VALUE",
+                              "args": {
+                                "variable": "154",
+                                "value": {
+                                  "type": "number",
+                                  "value": 0
+                                }
+                              },
+                              "id": "97c3a9a2-fdca-4e4a-b1b0-f5783e854b4a"
+                            }
+                          ],
+                          "false": []
+                        },
+                        "id": "ed88bc81-9c19-4603-ba0c-f70f1ecde856"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "154",
+                          "value": {
+                            "type": "number",
+                            "value": 0
+                          }
+                        },
+                        "id": "903861da-d73f-48b8-ab1a-ff77b18bf99c"
+                      }
+                    ]
+                  },
+                  "id": "fd540e7f-a83b-46e4-b0ac-1b97bfd8425c"
                 }
               ],
               "false": []
@@ -629,6 +822,132 @@
                     "actorId": "$self$"
                   },
                   "id": "3584e0c7-d61a-4caf-9c73-d9c7551d7704"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Conductor: \n\"Show your \nticket!\""
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 6,
+                    "maxHeight": 12,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": false
+                  },
+                  "id": "b632f76e-e606-4ea0-8a60-4804a48a2574"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Player: \n\"My phone is \ndead!\""
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 6,
+                    "maxHeight": 12,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "5688aace-7fb7-4700-ae7c-397ea54a5215"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Player: \n\"I need to use \nthe shockbank!\""
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 6,
+                    "maxHeight": 12,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "66f1c8ee-3b19-40ff-b0e7-899a13864bac"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Press X to switch \nbetween charger \nand tazer"
+                    ],
+                    "__section": "layout",
+                    "avatarId": "",
+                    "minHeight": 6,
+                    "maxHeight": 12,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 8,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "01badaa9-94f8-46eb-90fc-e45dee302771"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Press Z to \ntaze conductor\nwhen tazer \nis eqiuped"
+                    ],
+                    "__section": "layout",
+                    "avatarId": "",
+                    "minHeight": 6,
+                    "maxHeight": 12,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "239d2095-7275-4788-bbb9-de0b1e032142"
                 }
               ],
               "false": [

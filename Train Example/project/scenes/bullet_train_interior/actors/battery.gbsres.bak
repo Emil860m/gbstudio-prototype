@@ -100,7 +100,7 @@
                 "type": "variable",
                 "value": "5"
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "efb4a100-c20d-4bfd-9583-4920ecb46fee"
           },
@@ -127,7 +127,7 @@
                 },
                 "valueB": {
                   "type": "number",
-                  "value": 11
+                  "value": 1
                 }
               },
               "__collapseElse": true,
@@ -194,5 +194,5 @@
   "hit3Script": [],
   "x": 9,
   "y": 1,
-  "_index": 1
+  "_index": 8
 }
