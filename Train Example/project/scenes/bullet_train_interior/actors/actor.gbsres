@@ -48,7 +48,7 @@
               "value": {
                 "type": "true"
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "37ef3572-42b7-4b2d-afac-e359ff437c8d"
           }
@@ -401,7 +401,8 @@
                   "value": 50
                 }
               },
-              "__collapseElse": true
+              "__collapseElse": true,
+              "__collapse": true
             },
             "children": {
               "true": [

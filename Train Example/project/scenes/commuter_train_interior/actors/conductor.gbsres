@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
   "id": "3838688f-d046-4015-ba20-fec18b3e5038",
-  "_index": 0,
+  "_index": 3,
   "symbol": "actor_4",
   "prefabId": "",
   "name": "Conductor",
-  "x": 3,
-  "y": 11,
+  "x": 4,
+  "y": 10,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "7f645ed8-b845-4b9e-8d55-2396b3335760",
@@ -701,7 +701,7 @@
                                       "closeButton": "a",
                                       "closeDelayTime": 0.5,
                                       "closeDelayFrames": 30,
-                                      "__collapse": true
+                                      "__collapse": false
                                     },
                                     "id": "f6abd7f7-0523-4306-b3d0-c67bb3107ae9"
                                   },
@@ -793,7 +793,7 @@
                   "value": 25
                 }
               },
-              "__collapseElse": true,
+              "__collapseElse": false,
               "__collapse": false
             },
             "children": {
@@ -913,7 +913,7 @@
                     "text": [
                       "Press X to switch \nbetween charger \nand tazer"
                     ],
-                    "__section": "layout",
+                    "__section": "text",
                     "avatarId": "",
                     "minHeight": 6,
                     "maxHeight": 12,
