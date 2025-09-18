@@ -37,6 +37,21 @@
       "symbol": "var_spawner"
     },
     {
+      "id": "7",
+      "name": "Switching",
+      "symbol": "var_switching"
+    },
+    {
+      "id": "8",
+      "name": "HitDistance",
+      "symbol": "var_hitdistance"
+    },
+    {
+      "id": "9",
+      "name": "Tazer Distance",
+      "symbol": "var_tazer_distance"
+    },
+    {
       "id": "60",
       "name": "Conductor stun",
       "symbol": "var_conductor_stun"
@@ -187,11 +202,6 @@
       "symbol": "var_damage_timer_4"
     },
     {
-      "id": "7",
-      "name": "Switching",
-      "symbol": "var_switching"
-    },
-    {
       "id": "42597cc0-dd7e-4d98-8829-2f85b5f4779b__L3",
       "name": "ZPressedLastFrame",
       "symbol": "var_zpressedlastframe"
@@ -200,16 +210,6 @@
       "id": "96f16e8a-90cc-4352-be54-69420da95eef__L3",
       "name": "ZPressedLastFrame",
       "symbol": "var_zpressedlastframe_0"
-    },
-    {
-      "id": "8",
-      "name": "HitDistance",
-      "symbol": "var_hitdistance"
-    },
-    {
-      "id": "9",
-      "name": "Tazer Distance",
-      "symbol": "var_tazer_distance"
     }
   ]
 }

@@ -99,7 +99,7 @@
           },
           "valueB": {
             "type": "number",
-            "value": 75
+            "value": 100
           }
         },
         "__collapseElse": false

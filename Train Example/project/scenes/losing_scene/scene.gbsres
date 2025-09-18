@@ -1,25 +1,26 @@
 {
   "_resourceType": "scene",
-  "id": "8813dd3c-1183-47ea-a01c-7156e625cb14",
-  "_index": 3,
-  "type": "TOPDOWN",
-  "name": "interior_tiles",
-  "symbol": "scene_5",
-  "x": 840,
-  "y": 400,
-  "width": 20,
-  "height": 18,
-  "backgroundId": "53feafc9-6e2b-47fd-bf44-79f0c6f928be",
+  "id": "028ed1e2-942d-49b1-8cf0-761d27a5c7d9",
+  "_index": 5,
+  "name": "Losing Scene",
+  "backgroundId": "32ae9f4c-c7c1-46bc-ad85-7d091e727af0",
   "tilesetId": "",
+  "width": 29,
+  "height": 18,
+  "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
+  "collisions": "00ae+0f7+007+0f5+00a+0f!005+0f2+00!0f6+004+0f7+003+0f!002+0f2+002+0f3+00f+0f5+001b+0f6+002+0f2+0011+0f3+004+0f2+006+0f!002+0f!002+0f!002+0f!006+0fa+003+0fa+004+0f4+002+0f3+00!0f2+003+0f!002+0f!002+0f!002+0f!006+0f2+004+0f!00!0f2+0011+0f4+006+0f2+0013+0f2+006+0f!0012+0f1f+00!",
   "autoFadeSpeed": 1,
+  "symbol": "scene_6",
+  "x": 552,
+  "y": 416,
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "You lost!\nRestart to \nplay again"
+          "You lost!\nExit the station \nto play again!"
         ],
         "__section": "text",
         "avatarId": "",
@@ -38,11 +39,10 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "51fc7f4b-d3e6-4c46-bf23-b1d9ed239bf7"
+      "id": "bd1f4ccd-ec82-435f-bf38-6b39f6ec9e7a"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": [],
-  "collisions": "00168+"
+  "playerHit3Script": []
 }

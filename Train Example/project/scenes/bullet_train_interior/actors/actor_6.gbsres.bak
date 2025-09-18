@@ -193,6 +193,160 @@
   ],
   "updateScript": [
     {
+      "command": "EVENT_IF_INPUT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L3"
+                },
+                "valueB": {
+                  "type": "false"
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "1"
+                      },
+                      "valueB": {
+                        "type": "true"
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "condition": {
+                            "type": "eq",
+                            "valueA": {
+                              "type": "variable",
+                              "value": "7"
+                            },
+                            "valueB": {
+                              "type": "false"
+                            }
+                          },
+                          "__collapseElse": true,
+                          "__collapse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
+                              "args": {
+                                "actorId": "player",
+                                "operator": "<=",
+                                "distance": {
+                                  "type": "variable",
+                                  "value": "9"
+                                },
+                                "otherActorId": "$self$",
+                                "__collapseElse": true,
+                                "__collapse": false
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+                                    "args": {
+                                      "actorId": "$self$",
+                                      "__collapse": true
+                                    },
+                                    "id": "5b11bb42-75f9-4ac1-bfcb-5cb5a2d11ad2"
+                                  },
+                                  {
+                                    "command": "EVENT_SET_VALUE",
+                                    "args": {
+                                      "variable": "L0",
+                                      "value": {
+                                        "type": "true"
+                                      },
+                                      "__collapse": false
+                                    },
+                                    "id": "60d4c3e8-05bb-447e-9794-9a976a68ba7f"
+                                  },
+                                  {
+                                    "command": "EVENT_ACTOR_SET_SPRITE",
+                                    "args": {
+                                      "actorId": "$self$",
+                                      "spriteSheetId": "9dc4fcd7-be00-48b5-8431-c3f1ec9c59fd",
+                                      "__collapse": false
+                                    },
+                                    "id": "c98541bf-b290-4169-9d6f-c475cd47e5d1"
+                                  }
+                                ],
+                                "false": []
+                              },
+                              "id": "ba85dd2d-a77b-48e6-b7de-c44d223d3caa"
+                            }
+                          ],
+                          "false": []
+                        },
+                        "id": "6894de89-9b95-459f-90da-88983cadb517"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "4b245921-07e0-442e-b472-66a921c62834"
+                }
+              ],
+              "false": []
+            },
+            "id": "9ab61464-c351-44bf-bf09-207776138960"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L3",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "641e91f3-290e-46bb-a061-169226e9500d"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L3",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "a1376e53-f46c-49b2-89ab-ce782fcf447a"
+          }
+        ]
+      },
+      "id": "cf4b5f7a-ca6e-48ee-9265-8f27f7f6e92d"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -220,7 +374,7 @@
               },
               "otherActorId": "$self$",
               "__collapseElse": false,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -330,12 +484,12 @@
                     "actorId": "player",
                     "operator": "<=",
                     "distance": {
-                      "type": "number",
-                      "value": 2
+                      "type": "variable",
+                      "value": "8"
                     },
                     "otherActorId": "$self$",
                     "__collapseElse": true,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
