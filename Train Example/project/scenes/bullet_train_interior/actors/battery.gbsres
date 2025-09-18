@@ -50,16 +50,38 @@
             "type": "false"
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_INC_VALUE",
+            "command": "EVENT_IF",
             "args": {
-              "variable": "4"
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "7"
+                },
+                "valueB": {
+                  "type": "false"
+                }
+              },
+              "__collapseElse": true
             },
-            "id": "bc5d74fa-25fd-457c-85cc-5e963ac52420"
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "4"
+                  },
+                  "id": "bc5d74fa-25fd-457c-85cc-5e963ac52420"
+                }
+              ],
+              "false": []
+            },
+            "id": "ab7c9a57-448b-40f9-9c22-0c70aa73460b"
           }
         ],
         "false": []
@@ -77,10 +99,10 @@
           },
           "valueB": {
             "type": "number",
-            "value": 75
+            "value": 100
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -88,7 +110,7 @@
             "command": "EVENT_INC_VALUE",
             "args": {
               "variable": "5",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "8bace467-89c6-4fae-97a0-2ac80e2ff5a4"
           },
@@ -112,7 +134,7 @@
                 "type": "number",
                 "value": 0
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "00ea1050-33cd-49ed-b444-79158f4f3579"
           },
@@ -130,7 +152,7 @@
                   "value": 11
                 }
               },
-              "__collapseElse": true,
+              "__collapseElse": false,
               "__collapse": false
             },
             "children": {

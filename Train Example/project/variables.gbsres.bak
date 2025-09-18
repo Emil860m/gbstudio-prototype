@@ -32,6 +32,21 @@
       "symbol": "var_battery_frame"
     },
     {
+      "id": "6",
+      "name": "spawner",
+      "symbol": "var_spawner"
+    },
+    {
+      "id": "60",
+      "name": "Conductor stun",
+      "symbol": "var_conductor_stun"
+    },
+    {
+      "id": "61",
+      "name": "stun timer",
+      "symbol": "var_stun_timer"
+    },
+    {
       "id": "152",
       "name": "health",
       "symbol": "var_health"
@@ -82,16 +97,6 @@
       "symbol": "var_local_0"
     },
     {
-      "id": "60",
-      "name": "Conductor stun",
-      "symbol": "var_conductor_stun"
-    },
-    {
-      "id": "61",
-      "name": "stun timer",
-      "symbol": "var_stun_timer"
-    },
-    {
       "id": "42597cc0-dd7e-4d98-8829-2f85b5f4779b__L0",
       "name": "stun",
       "symbol": "var_stun"
@@ -107,11 +112,6 @@
       "symbol": "var_damage_timer"
     },
     {
-      "id": "6",
-      "name": "spawner",
-      "symbol": "var_spawner"
-    },
-    {
       "id": "96f16e8a-90cc-4352-be54-69420da95eef__L0",
       "name": "stun",
       "symbol": "var_stun_0"
@@ -125,6 +125,71 @@
       "id": "96f16e8a-90cc-4352-be54-69420da95eef__L2",
       "name": "damage timer",
       "symbol": "var_damage_timer_0"
+    },
+    {
+      "id": "9dfae605-40e2-4558-8bac-7e6d1287a0e2__L0",
+      "name": "stun",
+      "symbol": "var_stun_1"
+    },
+    {
+      "id": "9dfae605-40e2-4558-8bac-7e6d1287a0e2__L1",
+      "name": "stun timer",
+      "symbol": "var_stun_timer_2"
+    },
+    {
+      "id": "9dfae605-40e2-4558-8bac-7e6d1287a0e2__L2",
+      "name": "damage timer",
+      "symbol": "var_damage_timer_1"
+    },
+    {
+      "id": "6a1ba4fd-7302-461d-938c-4c2bdbc3fa03__L0",
+      "name": "stun",
+      "symbol": "var_stun_2"
+    },
+    {
+      "id": "6a1ba4fd-7302-461d-938c-4c2bdbc3fa03__L1",
+      "name": "stun timer",
+      "symbol": "var_stun_timer_3"
+    },
+    {
+      "id": "6a1ba4fd-7302-461d-938c-4c2bdbc3fa03__L2",
+      "name": "damage timer",
+      "symbol": "var_damage_timer_2"
+    },
+    {
+      "id": "64e6b957-100f-4419-a0c0-7af90807ed15__L0",
+      "name": "stun",
+      "symbol": "var_stun_3"
+    },
+    {
+      "id": "64e6b957-100f-4419-a0c0-7af90807ed15__L1",
+      "name": "stun timer",
+      "symbol": "var_stun_timer_4"
+    },
+    {
+      "id": "64e6b957-100f-4419-a0c0-7af90807ed15__L2",
+      "name": "damage timer",
+      "symbol": "var_damage_timer_3"
+    },
+    {
+      "id": "5585b2e4-0f81-4d14-b2b7-02e5b0494136__L0",
+      "name": "stun",
+      "symbol": "var_stun_4"
+    },
+    {
+      "id": "5585b2e4-0f81-4d14-b2b7-02e5b0494136__L1",
+      "name": "stun timer",
+      "symbol": "var_stun_timer_5"
+    },
+    {
+      "id": "5585b2e4-0f81-4d14-b2b7-02e5b0494136__L2",
+      "name": "damage timer",
+      "symbol": "var_damage_timer_4"
+    },
+    {
+      "id": "7",
+      "name": "Switching",
+      "symbol": "var_switching"
     }
   ]
 }

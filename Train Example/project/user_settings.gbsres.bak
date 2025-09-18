@@ -1,13 +1,13 @@
 {
   "_resourceType": "settings",
-  "worldScrollX": 538,
-  "worldScrollY": 266,
-  "zoom": 175,
+  "worldScrollX": 483.20001220703125,
+  "worldScrollY": 192.8000030517578,
+  "zoom": 105.61796087026505,
   "navigatorSplitSizes": [
-    331,
-    205,
-    205,
-    205
+    245,
+    103,
+    30,
+    323
   ],
   "showNavigator": true,
   "showCollisions": true,
@@ -25,16 +25,6 @@
   "debuggerPauseOnScriptChanged": false,
   "debuggerPauseOnWatchedVariableChanged": false,
   "debuggerBreakpoints": [
-    {
-      "scriptEventId": "37ef3572-42b7-4b2d-afac-e359ff437c8d",
-      "context": {
-        "type": "entity",
-        "entityType": "actor",
-        "entityId": "42597cc0-dd7e-4d98-8829-2f85b5f4779b",
-        "sceneId": "44fe89da-4777-40d7-9473-04d0ed766ed7",
-        "scriptKey": "script"
-      }
-    },
     {
       "scriptEventId": "005cff30-d95d-46b3-b310-99465686ad5e",
       "context": {
