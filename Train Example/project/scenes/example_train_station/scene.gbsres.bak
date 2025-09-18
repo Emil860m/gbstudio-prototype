@@ -106,7 +106,8 @@
         "variable": "1",
         "value": {
           "type": "false"
-        }
+        },
+        "__collapse": true
       },
       "id": "c9817ba9-b3ca-4f6a-9a82-dd2c6f7dcea5"
     },
@@ -117,7 +118,8 @@
         "value": {
           "type": "number",
           "value": 0
-        }
+        },
+        "__collapse": true
       },
       "id": "8e5e679c-e439-4f8e-9a8d-559dc883a9cc"
     },
@@ -128,7 +130,8 @@
         "value": {
           "type": "number",
           "value": 0
-        }
+        },
+        "__collapse": true
       },
       "id": "d7bc7b4f-243f-4044-a043-45c2c768ebe3"
     },
@@ -139,7 +142,8 @@
         "value": {
           "type": "number",
           "value": 0
-        }
+        },
+        "__collapse": true
       },
       "id": "68a2ad74-64ee-4a40-a95d-a16e9de2aa3e"
     },
@@ -150,7 +154,8 @@
         "value": {
           "type": "number",
           "value": 0
-        }
+        },
+        "__collapse": true
       },
       "id": "ed66063f-d10a-4518-b779-3b4917fd914f"
     },
@@ -160,7 +165,8 @@
         "variable": "7",
         "value": {
           "type": "false"
-        }
+        },
+        "__collapse": true
       },
       "id": "29d097dd-a880-4292-8206-f56c5d0301ee"
     }
