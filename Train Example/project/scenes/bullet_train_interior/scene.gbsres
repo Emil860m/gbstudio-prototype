@@ -952,7 +952,7 @@
         "duration": 2,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -971,7 +971,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -1074,7 +1074,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Press X to switch \nbetween charger \nand tazer"
+                      "Press (B) to \nswitch between \ncharger and tazer"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -1092,7 +1092,7 @@
                     "closeButton": "a",
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "7fa51ece-0530-4402-a486-8b93065330bd"
                 },
@@ -1100,7 +1100,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Press Z to \ntaze conductor\nwhen tazer \nis eqiuped"
+                      "Press (A) to \ntaze conductor\nwhen tazer \nis eqiuped"
                     ],
                     "__section": "text",
                     "avatarId": "",
